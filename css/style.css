@@ -33,8 +33,7 @@ p {
     background-color: #b3c1f9;
     color: #fff;
 }
-
-.features-section {
+.whire-section {
     background-color: #fff;
 }
 
@@ -79,7 +78,7 @@ p {
 
 .title-image {
     width: 60%;
-    transform: rotate(25deg);
+    transform: rotate(-15deg);
     position: absolute;
     right: 30%;
 }
@@ -104,4 +103,63 @@ p {
 
 .icon:hover {
     color: #b3c1f9;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #b3c1f9;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 20%;
+    border-radius: 30%;
+    margin: 20px;
+}
+
+
+#press {
+    background-color: #b3c1f9;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+.social-icon:hover {
+    color:#b3c1f9
+}
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
 }
